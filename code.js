@@ -37,7 +37,6 @@ class FlickrPhotos {
   // of the objects to the imageUrls array of the urls
   // per page.
   processImages(imgArr){
-  //  setTimeout(() => {return imgArr}, 200)
     for(let i=0; i < imgArr.length; i++){
      let imgUrl = this.constructImageUrl(imgArr[i])
      this.imageUrls.push(imgUrl);
